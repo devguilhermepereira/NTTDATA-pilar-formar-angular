@@ -1,27 +1,19 @@
-# NttdataPilarFormarAngular
+# Ntt Data  - Pilar Formar Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
-## Development server
+## Iniciando a aplicação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute o comando `npm run start:app` no terminal para rodar o FRONT e `npm run start:mock` para iniciar o servidor com o mock de dados.
 
-## Code scaffolding
+## Explicando o projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Desenvolvido com o intuito de ser um projeto complementar a trilha Pilar formar - Angular. Esse projeto tem como premissa a gestão de contas a receber e pagar por uma empresa, nele você deve poder cadastrar as contas a receber e pagar, cadastrar pessoas e gerar relatórios, além de ter uma dashboard de acompanhamento.
 
-## Build
+## Desafio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Dentro de cada pasta de componente você irá encontrar um README, onde deve ser lido e feito o que se pede, cada arquivo terá o desafio esperado e um desafio bônus que fica a critério do desenvolvedor fazê-lo ou não. O que será avaliado é o desafio esperado, como foi desenvolvido e o padrão de código adotado.
 
-## Running unit tests
+## Links uteis
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Esse projeto utiliza o [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/) para a organização de espaçamento e utiliza o [Angular Material](https://material.angular.io/components/categories) para o layout dos componentes, acesse ambos os links para conseguir seguir com os desafios.

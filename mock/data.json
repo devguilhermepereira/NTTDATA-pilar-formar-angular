@@ -1,0 +1,32 @@
+{
+    "contas-receber": [
+        {
+            "id": "1",
+            "title": "conta 1",
+            "value": 100
+        },
+        {
+            "id": "2",
+            "title": "conta 2",
+            "value": 200
+        }
+    ],
+    "contas-pagar": [
+        {
+            "id": "1",
+            "text": "conta 1",
+            "value": 100
+        },
+        {
+            "id": "2",
+            "text": "conta 2",
+            "value": 400
+        }
+    ],
+    "pessoas": [
+        {
+            "name": "João",
+            "doc": "12332145676"
+        }
+    ]
+}
