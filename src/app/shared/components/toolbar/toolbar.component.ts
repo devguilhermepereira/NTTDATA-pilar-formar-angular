@@ -22,8 +22,8 @@ export class ToolbarComponent implements OnInit {
 
   getMenu() {
     this.fixedItemsMenu = [
-      {name: 'Contas a Receber', icon: 'attach_money', route: '/business/accounts-payable'},
-      {name: 'Contas a Pagar', icon: 'attach_money', route: '/business/accounts-receivable'},
+      {name: 'Contas a Receber', icon: 'attach_money', route: '/business/accounts-receivable'},
+      {name: 'Contas a Pagar', icon: 'attach_money', route: '/business/accounts-payable'},
       {name: 'Cadastro de Pessoa', icon: 'person', route: '/business/people'},
       {name: 'Relatorios', icon: 'insert_chart', route: '/business/report'},
     ];

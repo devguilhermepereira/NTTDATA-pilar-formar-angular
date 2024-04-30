@@ -10,6 +10,12 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BusinessService } from './shared/service/business.service';
 import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { SharedModule } from './shared/shared.module';
+import { AngularMaterialModule } from './shared/angular-material.module';
+import { AccountsPayableComponent } from './pages/accounts-payable/accounts-payable.component';
+import { AccountsReceivableComponent } from './pages/accounts-receivable/accounts-receivable.component';
+import { PeopleComponent } from './pages/people/people.component';
+import { ReportsComponent } from './pages/reports/reports.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 
 registerLocaleData(localePt);
@@ -19,6 +25,10 @@ registerLocaleData(localePt);
   declarations: [
     AppComponent,
     DashboardComponent,
+    AccountsPayableComponent,
+    AccountsReceivableComponent,
+    PeopleComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,11 +36,13 @@ registerLocaleData(localePt);
     HttpClientModule,
     AppRoutingModule,
     BaseChartDirective,
-    SharedModule
+    SharedModule,
+    AngularMaterialModule
   ],
   providers: [
     BusinessService,
-    provideCharts(withDefaultRegisterables())
+    provideCharts(withDefaultRegisterables()),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })
