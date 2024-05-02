@@ -14,28 +14,38 @@
     "contas-pagar": [
         {
             "id": "1",
-            "text": "conta 1",
-            "value": 100
+            "title": "conta 1",
+            "company": "Empresa X",
+            "date": "12/05/2024",
+            "value": "R$ 1.500,00"
         },
         {
             "id": "2",
-            "text": "conta 2",
-            "value": 400
+            "title": "conta 2",
+            "company": "Empresa X",
+            "date": "12/06/2024",
+            "value": "R$ 1.500,00"
         },
         {
             "id": "3",
-            "text": "conta 3",
-            "value": 400
+            "title": "conta 3",
+            "company": "Empresa X",
+            "date": "12/07/2024",
+            "value": "R$ 1.500,00"
         },
         {
             "id": "4",
-            "text": "conta 4",
-            "value": 400
+            "title": "conta 4",
+            "company": "Empresa X",
+            "date": "12/08/2024",
+            "value": "R$ 1.500,00"
         },
         {
             "id": "5",
-            "text": "conta 5",
-            "value": 400
+            "title": "conta 5",
+            "company": "Empresa X",
+            "date": "12/09/2024",
+            "value": "R$ 1.500,00"
         }
     ],
     "pessoas": [

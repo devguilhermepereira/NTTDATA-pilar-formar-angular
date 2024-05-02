@@ -14,6 +14,8 @@ Desenvolvido com o intuito de ser um projeto complementar a trilha Pilar formar 
 
 Dentro de cada pasta de componente você irá encontrar um README, onde deve ser lido e feito o que se pede, cada arquivo terá o desafio esperado e um desafio bônus que fica a critério do desenvolvedor fazê-lo ou não. O que será avaliado é o desafio esperado, como foi desenvolvido e o padrão de código adotado.
 
+
+
 ## Layout das telas
 
 
@@ -22,9 +24,17 @@ Abaixo para facilitar está um layout do mínimo esperado, onde tem os requisito
 
 
 
-![alt text](./src/assets/layout-esperado/conta-a-pagar.png)
+![alt text](./src/assets/layout-esperado/conta-a-pagar-cadastro.png)
+
+
+![alt1 text](./src/assets/layout-esperado/conta-a-pagar-tabela.png)
 
 
 ## Links uteis
 
 Esse projeto utiliza o [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/) para a organização de espaçamento e utiliza o [Angular Material](https://material.angular.io/components/categories) para o layout dos componentes, acesse ambos os links para conseguir seguir com os desafios.
+
+Sobre como salvar dados na memoria com [RXJS](https://angular.io/guide/rx-library)
+
+
+Salvar os dados em memoria com [localStorage](https://warcontent.com/angular-localstorage/)

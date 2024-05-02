@@ -1,18 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { BusinessService } from '../../shared/service/business.service';
+import { MatSort } from '@angular/material/sort';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatTableDataSource } from '@angular/material/table';
 
-
-const ELEMENT_DATA: any = [
-  { name: 'conta 1', value: 'R$ 1.500,00',},
-  { name: 'conta 2', value: 'R$ 1.500,00',},
-  { name: 'conta 3', value: 'R$ 862,00',},
-  { name: 'conta 4', value: 'R$ 1.222,00',},
-  { name: 'conta 5', value: 'R$ 1.500,00',},
-  { name: 'conta 6', value: 'R$ 1.500,00',},
-  { name: 'conta 7', value: 'R$ 4.500,00',},
-  { name: 'conta 8', value: 'R$ 1.500,00',},
-  { name: 'conta 9', value: 'R$ 2.500,00',},
-  { name: 'conta 10', value: 'R$ 3.500,00',},
-];
 
 
 @Component({
@@ -20,7 +11,28 @@ const ELEMENT_DATA: any = [
   templateUrl: './accounts-payable.component.html',
   styleUrl: './accounts-payable.component.css'
 })
-export class AccountsPayableComponent {
-  displayedColumns: string[] = ['name', 'value'];
-  dataSource = ELEMENT_DATA;
+export class AccountsPayableComponent implements OnInit {
+  displayedColumns: string[] = ['title', 'company', 'date', 'value'];
+  dataSource: MatTableDataSource<any> = new MatTableDataSource();
+
+  @ViewChild(MatPaginator) paginator: any;
+  @ViewChild(MatSort) sort: any;
+
+  constructor(private businessService: BusinessService) {
+  }
+
+
+  ngOnInit() {
+    this.getAccountsPayable();
+
+  }
+
+
+  getAccountsPayable() {
+    this.businessService.getAccountsPayable().subscribe((res: any) => {
+      this.dataSource = new MatTableDataSource(res);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+    })
+  }
 }

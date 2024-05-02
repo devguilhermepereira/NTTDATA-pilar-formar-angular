@@ -2,7 +2,7 @@
 
 ## Desafio Principal (esperado)
 
-1 - incluir formularios para cadastro de contas a pagar, tendo como campos esperados, TITULO e VALOR, salvar as informações em memoria, seja por RXJS, localStorege ou sessionStorage;
+1 - Incluir formulários para cadastro de contas a pagar, tendo como campos esperados, DESCRIÇÃO, VALOR, PAGADOR, DATA DE VENCIMENTO salvar as informações em memória, seja por RXJS ou localStorage;
 
 2 - Desenvolver tabela para mostrar as contas a pagar registradas, utilizar a serivce Business para consumir as informações do mock;
 
