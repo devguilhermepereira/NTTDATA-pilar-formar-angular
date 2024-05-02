@@ -12,8 +12,7 @@ Desenvolvido com o intuito de ser um projeto complementar a trilha Pilar formar 
 
 ## Desafio
 
-Dentro de cada pasta de componente você irá encontrar um README, onde deve ser lido e feito o que se pede, cada arquivo terá o desafio esperado e um desafio bônus que fica a critério do desenvolvedor fazê-lo ou não. O que será avaliado é o desafio esperado, como foi desenvolvido e o padrão de código adotado.
-
+Dentro de cada pasta de componente você irá encontrar um README, onde deve ser lido e feito o que se pede. Os criterios que seram avaliados são, como foi desenvolvido (layout e lógica) e o padrão de código adotado (comentario e boas praticas).
 
 
 ## Layout das telas
